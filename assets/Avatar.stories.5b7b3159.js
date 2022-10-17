@@ -1,0 +1,2 @@
+import{A as t}from"./index.0ac27c5d.js";import"./index.9eaaa78d.js";import"./iframe.e703fa12.js";import"./index.c14a538a.js";import"./jsx-runtime.e835821d.js";const p={title:"Data display/Avatar",component:t,args:{src:"http://github.com/puera.png",alt:"Renann Souza"},argTypes:{src:{control:{type:"text"}}}},c={},e={args:{src:void 0}},n=["Primary","WithFallback"];export{c as Primary,e as WithFallback,n as __namedExportsOrder,p as default};
+//# sourceMappingURL=Avatar.stories.5b7b3159.js.map
