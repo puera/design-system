@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "yarn turbo dev --parallel",
+    "build": "yarn turbo build",
+    "changeset": "yarn changeset",
+    "version-packages": "yarn changeset version",
+    "release": "yarn turbo build --filter=packages/docs && yarn changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.25.0",
+    "turbo": "^1.5.5"
+  }
+}
